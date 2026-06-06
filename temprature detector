@@ -1,0 +1,11 @@
+temp=int(input('give a temprature:'))
+if temp >= -5 and temp <= 5:
+    print('it is very cold')
+elif temp >=6 and temp <= 18:
+    print('it is cold')
+elif temp >= 19 and temp <= 30:
+    print('it is normal')
+elif temp >= 30 and temp <= 45:
+    print('it is hot')
+else:
+    print('it is very hot') 
